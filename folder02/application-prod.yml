@@ -1,17 +1,2 @@
-server:
-  port: 8761
-
-spring:
-  main:
-    banner-mode: off
-  application:
-    name: eureka-server
-
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    registerWithEureka: false
-    fetchRegistry: false
-    serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+my:
+  info: prod
